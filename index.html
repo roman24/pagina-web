@@ -3,10 +3,41 @@
 <head>
    <meta charset="UTF-8">
    <title>Estudio Fotográfico Fotocol2000</title>
+   <!-- Normalize -->
+   <link rel="stylesheet" href="css/normalize.css">
+   <!-- Bootstrap Theme -->
+   <link rel="stylesheet" href="plugins/bootstrap.min.css">   
+   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+   <header>
+      <div class="container-fluid">
+         <h1>Bienvenido a la web del Estudio Fotográfico<br> Fotocol2000</h1>
+         <p>Esta es la página donde podrás ver nuestros trabajos.</p>   
+      </div>
+   </header>
    
-   <h1>Bienvenido a la web del Estudio Fotográfico Fotocol2000</h1>
-   <h2>Esta es la página donde podrás ver nuestros trabajos.</h2>
+   <div id="content" class="container">
+     <h3>Últimas fotografías</h3>
+      <div class="row">
+         <div class="col-md-3">
+            <figure><img src="img/city.jpg" alt="San Francisco Bay"></figure>
+            <figcaption><a href="#">Ciudad</a></figcaption>
+         </div>
+         <div class="col-md-3">
+            <figure><img src="img/vinos.jpg" alt="Selección de vinos"></figure>
+            <figcaption><a href="#">Vinos</a></figcaption>
+         </div>
+         <div class="col-md-3">
+            <figure><img src="img/gato.jpg" alt="Imagen de un gato"></figure>
+            <figcaption><a href="#">Gaticos</a></figcaption>
+         </div>
+      </div>
+   </div>
+   
+   <footer>
+      <h3>Fotografías obtenidas de Pexels</h3>
+   </footer>
 </body>
 </html>
